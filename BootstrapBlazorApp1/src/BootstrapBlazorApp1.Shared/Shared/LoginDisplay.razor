@@ -1,0 +1,12 @@
+﻿@inject NavigationManager Navigation
+
+<AuthorizeView>
+    <Authorized>
+        <span>@context.User.Identity!.Name</span>
+        <a href="/Account/Logout" class="nav-link btn btn-link text-white">退出</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="/Account/Register" class="text-white mr-3">注册</a>
+        <a href="/Account/Login" class="text-white mr-3">登录</a>
+    </NotAuthorized>
+</AuthorizeView>

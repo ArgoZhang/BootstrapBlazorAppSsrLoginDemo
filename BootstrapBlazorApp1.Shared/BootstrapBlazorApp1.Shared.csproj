@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
@@ -9,12 +9,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="BootstrapBlazor" Version="5.0.13" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="5.0.2" />
+        <PackageReference Include="BootstrapBlazor" Version="5.0.18-beta01" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="5.0.3" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.3" />
     </ItemGroup>
 
 </Project>

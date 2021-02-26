@@ -8,7 +8,7 @@ namespace BootstrapBlazorApp1.Shared.Shared
     /// </summary>
     public sealed partial class MainLayout
     {
-        private bool UseTabSet { get; set; } = false;
+        private bool UseTabSet { get; set; } = true;
 
         private string Theme { get; set; } = "";
 
@@ -37,7 +37,7 @@ namespace BootstrapBlazorApp1.Shared.Shared
 
         private static List<MenuItem> GetIconSideMenuItems()
         {
-            var menus = new List<MenuItem>
+            List<MenuItem> menus = new List<MenuItem>
             {
                 new MenuItem() { Text = "返回组件库", Icon = "fa fa-fw fa-home", Url = "https://www.blazor.zone/components" },
                 new MenuItem() { Text = "Index", Icon = "fa fa-fw fa-fa", Url = "" },

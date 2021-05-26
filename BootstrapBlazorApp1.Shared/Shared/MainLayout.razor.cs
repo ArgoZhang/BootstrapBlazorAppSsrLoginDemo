@@ -37,7 +37,7 @@ namespace BootstrapBlazorApp1.Shared.Shared
 
         private static List<MenuItem> GetIconSideMenuItems()
         {
-            List<MenuItem> menus = new List<MenuItem>
+            List<MenuItem> menus = new()
             {
                 new MenuItem() { Text = "返回组件库", Icon = "fa fa-fw fa-home", Url = "https://www.blazor.zone/components" },
                 new MenuItem() { Text = "Index", Icon = "fa fa-fw fa-fa", Url = "" },
